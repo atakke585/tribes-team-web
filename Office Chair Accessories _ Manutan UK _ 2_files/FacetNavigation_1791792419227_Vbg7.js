@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".subox-header").on("click",function(e){return $(this).parent(".subox").toggleClass("subox-opened"),!1})});

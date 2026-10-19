@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".sister-inter").on("click",function(){$(this).parent(".sister").toggleClass("open");var t=$(this).attr("onclick");if(void 0!==t&&!1!==t)$(this).removeAttr("onclick");else{var e=$("#eventCategory").val();$(this).attr("onclick","pushGTMEvent('"+e+"', 'Show all categories', 'Click');")}return!1})});
